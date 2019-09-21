@@ -1,7 +1,15 @@
 # bladef
 win32 front end for the blade encoder writen in C
 
+You can download the Blade Encoder from here: http://www.rarewares.org/rrw/files/blade/blade0927.zip
+
+Extract bladedll.h and BladeEnc.dll in the same place with the source files from this project.
+
+Open .wav files with bladef and encode them to .mp3 files.
+
+
 To compile and link this with:
+
 
 1. Microsoft Visual Studio 2003 Professional command line tools you can download the The Microsoft Visual C++ Toolkit 2003 from here: http://kael.civfanatics.net/files/VCToolkitSetup.exe
 
