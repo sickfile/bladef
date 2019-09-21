@@ -1,5 +1,10 @@
 # bladef
-win32 front end for the blade encoder writen in C
+win32 front end for the Blade Encoder, writen in C
+https://www.dimka.com/daily/external-pages/www2.arnes.si-~mmilu.html
+
+
+All the needed files are here, but to be fair we can build the program from scratch.
+
 
 You can download the Blade Encoder from here: http://www.rarewares.org/rrw/files/blade/blade0927.zip
 
