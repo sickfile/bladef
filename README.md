@@ -23,6 +23,7 @@ Hit the "New" button again. For "Variable name" enter LIB, for "Variable value" 
 Open "Command Prompt" and enter SET. In the text that poped up on the screen there should be INCLUDE=C:\LANG\MSVC\INCLUDE and LIB=C:\LANG\MSVC\LIB, also C:\LANG\MSVC\BIN should be on the PATH.
 
 CD to the directory where you have the source files from this project and enter
+
 cl bladef.c wndshift.c
 
 The Microsoft Visual Studio 2003 Professional compiler/linker should have created bladef.exe
