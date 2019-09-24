@@ -40,3 +40,8 @@ CD to the directory where you have the source files from this project and enter
 cl bladef.c wndshift.c
 
 The Microsoft Visual Studio 2003 Professional compiler/linker should have created bladef.exe
+
+2. Borland 5.5 Compiler and command-line tools
+
+bcc32 -tW bladef.c wndshift.c
+
