@@ -2,6 +2,7 @@
 win32 front end for the Blade Encoder, writen in C
 https://www.dimka.com/daily/external-pages/www2.arnes.si-~mmilu.html
 
+This project and it's logic should all be in one file bladef.c using the extern keyword in wndshift.c is a clear indication of this, but at the time of coding this I was curious of splitting projects in more compilation units.
 
 All the needed files are here, but to be fair we can build the program from scratch.
 
@@ -22,12 +23,12 @@ Run the toolkit and install it in say C:\LANG\MSVC
 
 Then you'll need to install the platform SDK. Windows Server 2003 R2 Platform SDK will do the job, you can download it from here: https://download.cnet.com/Windows-Server-2003-R2-Platform-SDK-ISO-Download/3000-10248_4-10731094.html
 
-Extract the files from the image with 7Z archiver and run Setup. Disable all the SDKs except the Micsrosoft Windows Core SDK. You can disable all parts of it, you will need only Build Environment > Build Environment (x86 32-bit).
-In short: Micsrosoft Windows Core SDK > Build Environment > Build Environment (x86 32-bit).
+Extract the files from the image with 7Z archiver and run Setup. Disable all the SDKs except the Microsoft Windows Core SDK. You can disable all parts of it, you will need only Build Environment > Build Environment (x86 32-bit).
+In short: Microsoft Windows Core SDK > Build Environment > Build Environment (x86 32-bit).
 
 Install the Platform SDK also in C:\LANG\MSVC
 
-Right click on "My Computer" and go to Properties, find "Environment Variables" in the advanced setings.
+Right click on "My Computer" and go to Properties, find "Environment Variables" in the advanced settings.
 Click it and under "User variables for ..." hit the "New" button.
 For "Variable name" enter PATH, for "Variable value" enter C:\LANG\MSVC\BIN then click OK.
 Hit the "New" button again. For "Variable name" enter INCLUDE, for "Variable value" enter C:\LANG\MSVC\INCLUDE then click OK.
